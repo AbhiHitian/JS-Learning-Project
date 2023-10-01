@@ -19,3 +19,29 @@ let isTrue=true;
 console.log(typeof "abhi") //to find the type of variable
 
 console.log(typeof null) // output object type*
+
+
+//JS is dyanmic type language i think 
+
+//summary
+// premitive data types :- total 7 types 
+/* 
+string,Number,Boolean,null,undefined,symbol,Bigint
+
+
+Non- Premetive type :- Refrence type 
+Array,Objects,Functions
+*/
+
+const Heros=["Nagraj","Doga"]
+
+let myObj={
+    name:"Abhi",
+    age:25,
+}
+
+const myFunction= function(){
+    console.log("Hello world")
+}
+
+console.log(typeof Heros) // to find the datatypes of variable 
