@@ -7,4 +7,4 @@ console.log(null>0);// false
 console.log(null==0);//false
 console.log(null>=0);//false (conversion problem)
 
-// === strict check(it will check data type as well)
+// === strict check(it will check data type as well))
