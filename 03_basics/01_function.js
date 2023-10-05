@@ -41,8 +41,40 @@ return `${userName} just logged in`
 }
 */
 
-
-
-
 loggedUserMessage("Abhinav") 
 console.log(loggedUserMessage() ) // when input will not be passed then it will return undifined user
+
+//rest/spread(...) operator will be usefull for the function like where we need to create a function to add in cart 
+//Example:1
+function calculateCardPrice(...num1){
+
+return num1
+}
+
+console.log(calculateCardPrice(100,5,10))
+
+//Example 2:
+function calculateCardPrice(val1,val2,...num1){//here first two input will be considered for val1 and val2 and rest inputs will be stored in a array 
+
+    return num1
+    }
+
+    const user ={
+        name:"Abhinav",
+        age: 26
+    }
+
+//create a function to handle an object
+function handleObj(anyObject){
+
+    console.log(`user name is ${anyObject.name} and age ${anyObject.age}`)
+}
+handleObj(user)// we can pass the direct object as well
+
+const myArray=[100,22,222]
+
+function returnSecondVal(getArray){
+return getArray[1]
+}
+console.log(returnSecondVal(myArray))// here also we can pass direct array 
+
