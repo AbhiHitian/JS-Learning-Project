@@ -1,0 +1,32 @@
+Javascript Execution context 
+
+Global execute context to hoga hi 
+Function Execution context
+Eval Execution context
+
+two phases me run hota h
+1) Memory Creation Phase :-
+2) Execution Phase :- 
+
+step1 :- Global Execution sbse phle this se allocate hota h
+Step2 :- Memory Phase :- sare variable ko rakha jata h
+      Val1 > undefined 
+      Val2 > undefined
+      addNum> defination of function 
+      result1 > undefined
+      result2 > undefined
+Step3:- Execution Phase
+     Val1 >10 
+     Val2 >5
+     addNum > alag execution context bnanta h (new variable environment + Execution thread)---> execution ke bd delete ho jata h
+                                              Memory Phase again banega 
+                                                Val1 > undefined
+                                                Val2>undefined
+                                                total> undefined
+                                              Execution context
+                                                Val1=10
+                                                Val2=15
+                                                total=15(it will return global execution comtext)
+                                              
+Call Stack :-
+Global execution--> function (LIFO)
